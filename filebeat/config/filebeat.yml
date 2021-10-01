@@ -14,6 +14,6 @@ processors:
 output.elasticsearch:
   hosts: ["https://localhost:9200"]
   username: "elastic"
-  password: "XSkVnoDFcFA6AJiWGyAb"
+  password: "test"
 setup.kibana:
   host: "https://localhost:5601"
