@@ -1,0 +1,2 @@
+server.port: 127.0.0.1:5601
+elasticsearch.url: "http://es01:9200"
