@@ -1,3 +1,4 @@
 *.txt
 *.env
 filebeat.yml
+./sample_log/*
