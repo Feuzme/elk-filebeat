@@ -126,6 +126,7 @@ services:
   fb01:
     image: docker.elastic.co/beats/filebeat:${VERSION}
     command: filebeat -e -strict.perms=false
+    container_name: fb01
     environment:
       ELASTICSEARCH_URL: https://es01:9200
       ELASTICSEARCH_HOSTS: https://es01:9200
@@ -134,9 +135,9 @@ services:
       ELASTICSEARCH_HOSTS: https://es01:9200
       ELASTICSEARCH_SSL_CERTIFICATEAUTHORITIES: $CERTS_DIR/ca/ca.crt
       SERVER_SSL_ENABLED: "true"
-      SERVER_SSL_KEY: $CERTS_DIR/kib01/kib01.key
-      SERVER_SSL_CERTIFICATE: $CERTS_DIR/kib01/kib01.crt
-    container_name: fb01
+      SERVER_SSL_KEY: $CERTS_DIR/fb01/fb01.key
+      SERVER_SSL_CERTIFICATE: $CERTS_DIR/fb01/fb01.crt
+    
     restart: unless-stopped
     user: root
     volumes:

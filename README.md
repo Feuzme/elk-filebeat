@@ -22,12 +22,12 @@ docker exec es01 /bin/bash -c "bin/elasticsearch-setup-passwords auto --batch --
 6. in the filebeat.yml file use the user elastic password in 'output.elasticsearch' field
 7. run commands 
 ```shell
-docker compose stop
+docker compose -f elastic-docker-tls.ym stop
 
 docker compose -f elastic-docker-tls.yml up -d
 ```
 
-TODO Start Elastic search module in filebeat
+## TODO FileBeat configuration
 
 ## Links
 - Elastic documentation for elk stack with tls enabled
