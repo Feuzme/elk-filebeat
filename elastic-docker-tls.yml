@@ -140,7 +140,7 @@ services:
     environment:         
       - xpack.monitoring.elasticsearch.username=beats_system
       - xpack.monitoring.elasticsearch.password=${BEAT_PASS}
-    
+
     restart: unless-stopped
     user: root
     volumes:
@@ -165,4 +165,4 @@ volumes:
 
 networks: 
   elastic:
-    driver: bridge    
+    driver: bridge
