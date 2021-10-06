@@ -1,3 +1,2 @@
-2021-10-04T12:51:26.792Z	INFO	instance/beat.go:665	Home path: [/usr/share/filebeat] Config path: [/usr/share/filebeat] Data path: [/usr/share/filebeat/data] Logs path: [/usr/share/filebeat/logs]
-2021-10-04T12:51:26.803Z	INFO	instance/beat.go:673	Beat ID: 99f1032f-e541-4347-860d-5d21b3ae9492
-2021-10-04T12:51:26.806Z	INFO	[add_cloud_metadata]	add_cloud_metadata/add_cloud_metadata.go:101	add_cloud_metadata: hosting provider type not detected.
+2021-10-05T14:32:45.312Z	INFO	instance/beat.go:665	Home path: [/usr/share/filebeat] Config path: [/usr/share/filebeat] Data path: [/usr/share/filebeat/data] Logs path: [/usr/share/filebeat/logs]
+2021-10-05T14:32:45.331Z	INFO	instance/beat.go:673	Beat ID: dcfb598f-96fa-4338-be82-b43691d8bd5c

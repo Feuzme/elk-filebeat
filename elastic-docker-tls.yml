@@ -137,9 +137,6 @@ services:
       SERVER_SSL_ENABLED: "true"
       SERVER_SSL_KEY: $CERTS_DIR/fb01/fb01.key
       SERVER_SSL_CERTIFICATE: $CERTS_DIR/fb01/fb01.crt   
-    environment:         
-      - xpack.monitoring.elasticsearch.username=beats_system
-      - xpack.monitoring.elasticsearch.password=${BEAT_PASS}
 
     restart: unless-stopped
     user: root
