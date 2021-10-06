@@ -145,7 +145,7 @@ services:
       - ./filebeat/config/filebeat.yml:/usr/share/filebeat/filebeat.yml:ro
       - ./filebeat/sample_log:/usr/share/filebeat/logs
       - ./filebeat/docker/containers/:/var/lib/docker/containers/:ro
-      - ./filebeat/log/:/var/log/:ro
+      - ./filebeat/log/:/var/log/:roTTTTTT
     depends_on: ["kib01"]
     networks:
       - elastic
